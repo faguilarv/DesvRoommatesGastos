@@ -5,6 +5,6 @@ const router = Router();
 
 router.get("/roommates", controllerRoomUsers.getRoommates);
 
-router.post("/rommate", controllerRoomUsers.createRoommate);
+router.post("/roommate", controllerRoomUsers.createRoommate);
 
 export default router;
