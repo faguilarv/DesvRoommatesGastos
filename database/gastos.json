@@ -1,0 +1,9 @@
+{
+
+    "gastos":
+    [{"id":"11b",
+    "roommate":"Francisco",
+    "descripcion":"Compras MiniMarket",
+    "monto":30000}]
+    
+    }

@@ -1,0 +1,14 @@
+{
+    "roommates":
+    [
+        {"nombre":"Francisco",
+        "debe":0,
+        "recibe":10000},
+        {"nombre":"Luisa",
+        "debe":10000,
+        "recibe":0},
+        {"nombre":"Antonia",
+        "debe":10000
+        ,"recibe":0}
+        ]
+    }
