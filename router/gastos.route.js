@@ -1,15 +1,15 @@
 import { Router } from "express";
 
-import { ControllerDeGastos } from "../controllers/controllerGastos.js";
+import { ControllerGastosRoommates } from "../controllers/controllerGastos.js";
 
 const router = Router();
 
-router.get("/gastos", ControllerDeGastos.getAllGastos);
+router.get("/gastos", ControllerGastosRoommates.getAllGastos);
 
-router.post("/gasto", ControllerDeGastos.createGasto);
+router.post("/gasto", ControllerGastosRoommates.createGasto);
 
-router.delete("/gasto", ControllerDeGastos.removeGasto);
+router.delete("/gasto", ControllerGastosRoommates.removeGasto);
 
-router.put("/gasto", ControllerDeGastos.updateGasto);
+router.put("/gasto", ControllerGastosRoommates.updateGasto);
 
 export default router;

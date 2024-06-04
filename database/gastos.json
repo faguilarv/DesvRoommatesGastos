@@ -1,9 +1,1 @@
-{
-
-    "gastos":
-    [{"id":"11b",
-    "roommate":"Francisco",
-    "descripcion":"Compras MiniMarket",
-    "monto":30000}]
-    
-    }
+{"gastos":[{"id":"11b","roommate":"Francisco","descripcion":"Compras MiniMarket","monto":100000},{"id":"613","roommate":"Prithvi","descripcion":"Articulos de limpieza","monto":35000},{"id":"79f","roommate":"Alan","descripcion":"Articulos de limpieza","monto":15000},{"id":"e97","roommate":"Antonia","descripcion":"Articulos de limpieza","monto":15000}]}
