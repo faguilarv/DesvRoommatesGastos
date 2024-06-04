@@ -122,9 +122,9 @@ const removeGasto = async (req, res) => {
 
     res.json({ roommates, gastos });
   } catch (error) {
-    console.error("se ha producido un error al eliminar gasto", error);
+    console.error("Error al eliminar gasto", error);
     res.status(500).json({
-      error: "error interno al procesar su requerimiento",
+      error: "error de servidor ",
       msg: error.msg,
     });
   }
